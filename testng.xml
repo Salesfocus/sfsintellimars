@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Mars10">
+  <test  name="Mars10">
+  		<classes>
+			<class name="intellimars.Mars10" />
+		</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

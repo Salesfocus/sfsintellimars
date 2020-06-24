@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [IntelliMARSiPhone]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="IntelliMARSiPhone(failed)">
+    <parameter name="app" value="/Users/Ashishv/Desktop/IntelliMARS.ipa"/>
+    <parameter name="password" value="mars1"/>
+    <parameter name="platformVersion" value="12.4"/>
+    <parameter name="xcodeOrgId" value="X45K6MGNL2"/>
+    <parameter name="XcodeSigningId" value="Cedric"/>
+    <parameter name="udid" value="50566ae7a20151b7a5fbbece43d508c376ee2d4f"/>
+    <parameter name="deviceName" value="iPhone"/>
+    <parameter name="userid" value="567829"/>
+    <parameter name="url" value="https://imarsetfqa.phxa.com"/>
+    <classes>
+      <class name="intellimars.IntelliMARSiPhone">
+        <methods>
+          <include name="rep"/>
+          <include name="segmentation"/>
+          <include name="timeline"/>
+          <include name="setUp"/>
+          <include name="officesnearme"/>
+          <include name="firm"/>
+          <include name="teamsnearme"/>
+          <include name="feedback"/>
+          <include name="general"/>
+          <include name="dashboard2"/>
+          <include name="office"/>
+          <include name="crm_winnersRedeemers"/>
+          <include name="login"/>
+          <include name="waitforit"/>
+          <include name="team"/>
+          <include name="signout"/>
+          <include name="dashoard"/>
+          <include name="calendar"/>
+          <include name="product"/>
+          <include name="repsnearme"/>
+          <include name="starreport"/>
+        </methods>
+      </class> <!-- intellimars.IntelliMARSiPhone -->
+    </classes>
+  </test> <!-- IntelliMARSiPhone(failed) -->
+</suite> <!-- Failed suite [IntelliMARSiPhone] -->

@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="IntelliMars2iPhone" verbose="1">
+	<test name="IntelliMars2iPhone">
+
+		<parameter name="MrepFname" value="SKOW" />
+		<parameter name="MrepLname" value="BISHOP" />
+		<parameter name="app"
+			value="/Users/Ashishv/Desktop/IntelliMARS.ipa" />
+		<parameter name="deviceName" value="iPhone" />
+		<parameter name="udid"
+			value="50566ae7a20151b7a5fbbece43d508c376ee2d4f" />
+		<parameter name="platformVersion" value="12.4" />
+		<parameter name="xcodeOrgId" value="X45K6MGNL2" />
+		<parameter name="XcodeSigningId" value="Cedric" />
+		<parameter name="url" value="https://imarsetfqa.phxa.com" />
+		<parameter name="userid" value="567829" />
+		<parameter name="password" value="mars1" />
+		<parameter name="Mfirmname" value="READ OUT FINANCES" />
+		<parameter name="Mofficename"
+			value="READ OUT FINANCES, 204 KULA HIGHWAY" />
+		<parameter name="editrepFname" value="SKOW" />
+		<parameter name="editrepLname" value="BISHOP" />
+		
+		<classes>
+			<class name="intellimars.IntelliMars2iPhone" />
+		</classes>
+	</test>
+</suite>
+
+

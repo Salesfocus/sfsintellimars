@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="intellimars.IntelliMARSiPhone">
+	<test name="IntelliMARSiPhone">
+		<parameter name="app"
+			value="/Users/Ashishv/Desktop/IntelliMARS.ipa"></parameter>
+		<parameter name="deviceName" value="iPhone"></parameter>
+		<parameter name="udid"
+			value="50566ae7a20151b7a5fbbece43d508c376ee2d4f"></parameter>
+		<parameter name="platformVersion" value="12.4"></parameter>
+		<parameter name="xcodeOrgId" value="X45K6MGNL2"></parameter>
+		<parameter name="XcodeSigningId" value="iPhone Developer"></parameter>
+		<parameter name="admurl" value="https://imarsetfqa.phxa.com"></parameter>
+		<parameter name="admnusrid" value="567829"></parameter>
+		<parameter name="admnpswd" value="mars1"></parameter>
+		<parameter name="CRMUSR" value="ABOSCO"></parameter>
+		<parameter name="CRMPSD" value="mars1"></parameter>
+		<parameter name="CRMURL" value="ipad9qa"></parameter>
+		<parameter name="WHLUSR" value="558218"></parameter>
+		<parameter name="WHLPSD" value="mars1"></parameter>
+		<parameter name="WHLURL" value="https://imarsetfqa.phxa.com"></parameter>
+		<parameter name="RLASTNAME" value="Toto"></parameter>
+		<parameter name="RFIRSTNAME" value="Albert"></parameter>
+		
+		<classes>
+			<class name="intellimars.IntelliMARSiPhone" />
+		</classes>
+	</test>
+</suite> 

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [intellimars.IntelliMars2iPhone]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="IntelliMars2iPhone(failed)">
+    <parameter name="app" value="/Users/Ashishv/Desktop/IntelliMARS.ipa"/>
+    <parameter name="Mfirmname" value="Ranking Firm"/>
+    <parameter name="xcodeOrgId" value="X45K6MGNL2"/>
+    <parameter name="XcodeSigningId" value="iPhone Developer"/>
+    <parameter name="Mofficename" value="AZ, Ranking Firm"/>
+    <parameter name="editrepFname" value="Dolce"/>
+    <parameter name="deviceName" value="iPhone"/>
+    <parameter name="userid" value="ABOSCO"/>
+    <parameter name="url" value="ipad9qa"/>
+    <parameter name="editrepLname" value="Gabbana"/>
+    <parameter name="password" value="mars1"/>
+    <parameter name="MrepLname" value="Gabbana"/>
+    <parameter name="platformVersion" value="12.4"/>
+    <parameter name="udid" value="50566ae7a20151b7a5fbbece43d508c376ee2d4f"/>
+    <parameter name="MrepFname" value="Dolce"/>
+    <classes>
+      <class name="intellimars.IntelliMars2iPhone">
+        <methods>
+          <include name="officesync" invocation-numbers="0"/>
+          <include name="rephone" invocation-numbers="0"/>
+          <include name="calcall" invocation-numbers="0"/>
+          <include name="repemail" invocation-numbers="0"/>
+          <include name="logcalls" invocation-numbers="0"/>
+          <include name="addrep" invocation-numbers="0"/>
+          <include name="repschedulecall" invocation-numbers="0"/>
+          <include name="editrep" invocation-numbers="0"/>
+          <include name="waitforit"/>
+          <include name="callogcall" invocation-numbers="0"/>
+          <include name="note" invocation-numbers="0"/>
+          <include name="calmeeting" invocation-numbers="0"/>
+          <include name="repaddress" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="repsync" invocation-numbers="0"/>
+          <include name="repmeet" invocation-numbers="0"/>
+          <include name="firmsync" invocation-numbers="0"/>
+          <include name="repcategory" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- intellimars.IntelliMars2iPhone -->
+    </classes>
+  </test> <!-- IntelliMars2iPhone(failed) -->
+</suite> <!-- Failed suite [intellimars.IntelliMars2iPhone] -->
